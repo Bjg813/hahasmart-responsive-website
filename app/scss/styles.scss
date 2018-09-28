@@ -1,8 +1,9 @@
-@import "variables.scss";
-@import "hero.scss";
-@import "footer.scss";
-@import "_first-section.scss";
-@import "_headline-section.scss";
+@import 'variables';
+@import "hero";
+@import "footer";
+@import "_first-section";
+@import "_headline-section";
+@import "_nav-bar";
 
 // styles.scss
 body,
@@ -11,20 +12,6 @@ html {
   margin: 0;
   background-color: $primary-color;
   font-family: $primary-font-family;
-}
-
-h1 {
-  font-family: Georgia;
-  font-weight: bold;
-  font-style: italic;
-  margin: 10px;
-  text-shadow: 2px 2px #000;
-}
-
-p {
-  font-family: Georgia;
-  font-style: italic;
-  text-shadow: 1px 1px #000;
 }
 
 img {

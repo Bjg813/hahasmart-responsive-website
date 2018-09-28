@@ -1,0 +1,15 @@
+.navbar-light {
+    .navbar-brand {
+        width: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-light {
+
+        .navbar-brand {
+            width: 10%;
+        }
+    }
+}
+

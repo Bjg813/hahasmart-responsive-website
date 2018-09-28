@@ -1,13 +1,15 @@
+@import 'variables';
+
 .headline {
-    background-color: green;
+    background-color: $secondary-color;
 }
 
-.headline h2 {
+.headline {
+    h2 {
     text-align: center;
-    color: beige;
+    color: $primary-color;
     font-size: 30px;
-    font-family: $primary-font-family;
-    text-shadow: 2px 2px #000;
+    }
 }
 
 @media (min-width: 992px) {
