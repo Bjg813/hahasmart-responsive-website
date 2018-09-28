@@ -1,0 +1,17 @@
+.headline {
+    background-color: green;
+}
+
+.headline h2 {
+    text-align: center;
+    color: beige;
+    font-size: 30px;
+    font-family: $primary-font-family;
+    text-shadow: 2px 2px #000;
+}
+
+@media (min-width: 992px) {
+    .headline h2 {
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,11 @@
+.flex-box-container {
+    display: flex;
+    flex-wrap: wrap;
+}  
+
+@media (min-width: 992px) {
+    .flex-box-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
