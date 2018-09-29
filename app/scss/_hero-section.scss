@@ -1,0 +1,88 @@
+@import '_variables';
+
+.box {
+	background-image:url('../images/solarpanels-small-hero-image.png');
+	overflow: hidden;
+	background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0;
+}
+
+@media only screen and (min-device-width: $landscape-phones) {
+    .box {
+        background-image: url('../images/solarpanels.png');
+    }
+}
+
+.box {
+    h1 {
+        color: $primary-color;
+        text-align:center;
+        margin: 0;
+        padding: 3%;
+        font-weight: bolder;
+        font-size: $h1-font-xs;
+    }
+}
+
+.box {
+    h2 {
+        color: $primary-color;
+        text-align:center;
+        font-size: $h2-font-xs;
+        margin: 0 0 20% 0;
+        padding: 0 5%;
+    }
+}
+
+.hero-button {
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    border-radius: 25px;
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
+    color: $dark-color;
+    font-weight: 700;
+}
+
+.hero-button:hover,
+    .hero-button:focus {
+        background-color: $hover-background-color;
+        border: 1px solid $hover-background-color;
+        color: $dark-color;
+    }  
+
+@media only screen and (min-width: $landscape-phones)  {
+    .hero-button {
+        left: 37%;
+    }
+}
+
+@media only screen and (min-width: $tablets)  {
+.box {
+    h1 {
+        font-size: $h1-font-xl;
+        padding: 7% 0 5% 0;
+    }
+}
+
+.box {
+    h2 {
+        font-size: $h2-font-xl;
+    }
+}
+
+.hero-button {
+    top: 76%;
+    left: 37%;
+    font-size: 1.5rem;
+}
+} 
+
+@media only screen and (min-width: $large-desktops) {
+    .hero-button {
+        left: 43%;
+    }
+}
