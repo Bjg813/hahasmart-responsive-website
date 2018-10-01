@@ -1,18 +1,12 @@
 @import '_variables';
 
 .box {
-	background-image:url('../images/solarpanels-small-hero-image.png');
+	background-image:url('../images/solarpanels-hahasmart-hero-image.png');
 	overflow: hidden;
 	background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     padding: 0;
-}
-
-@media only screen and (min-device-width: $landscape-phones) {
-    .box {
-        background-image: url('../images/solarpanels.png');
-    }
 }
 
 .box {
@@ -65,12 +59,14 @@
     h1 {
         font-size: $h1-font-xl;
         padding: 7% 0 5% 0;
+        text-shadow: 2px 2px $dark-color;
     }
 }
 
 .box {
     h2 {
         font-size: $h2-font-xl;
+        text-shadow: 2px 2px $dark-color;
     }
 }
 
