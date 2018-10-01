@@ -1,0 +1,125 @@
+.flex-box-container {
+    ul {
+        background-color: #FFFCF6;
+    }
+}
+
+.flex-box-container {
+    ul {
+        li {
+            background-color: #f3f3f3;
+            width: 280px;
+            display: block;
+            float: left;
+            margin-right: 24px;
+            margin-top: 100px;
+            position: relative;
+        }
+    }
+}
+
+.flex-box-container {
+    ul:hover {
+                border-color: 2px solid #f6be4e;
+    }
+}
+
+.flex-box-container {
+    ul {
+        a {
+            border: 2px solid #f6be4e;
+        }
+    }
+}
+
+.flex-box-container {
+    ul {
+        li {
+            a {
+                display: block;
+                padding-bottom: 20px;
+                border: 2px solid #f3f3f3; 
+            }
+        }
+    }
+}
+
+.flex-box-container { 
+    ul {
+        li {
+            div {
+                .icon1 {
+                        background-image: url();
+                        background-color: #f6be4e;
+                }
+            }
+        }
+    }
+}
+
+.flex-box-container {
+    ul {
+        li {
+            div {
+                span {
+                    display: block;
+                    width: 130px;
+                    height: 130px;
+                    background-color: #87BA45;
+                    border-radius: 66px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
+
+.flex-box-container {
+    ul {
+        li {
+            h4 {
+                text-align: center;
+                color: #000;
+                font-size: 18px;
+                line-height: 24px;
+                padding-top: 90px;
+                height: 48px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+.flex-box-container {
+    ul {
+        li {
+            p {
+                text-align: center;
+                color: #666666;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.flex-box-container {
+    ul {
+        li {
+            img:last-child {
+                right: -22px;
+                top: 40%;
+            }
+        }
+    }
+}
+
+.flex-box-container { 
+    ul {
+        li {
+            img {
+                position: absolute;
+            }
+        }
+    }
+}

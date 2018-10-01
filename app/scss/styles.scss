@@ -3,6 +3,7 @@
 @import "_first-section";
 @import "_headline-section";
 @import "_nav-bar";
+@import "_step-box";
 
 // styles.scss
 body,
@@ -20,5 +21,20 @@ img {
 
 section {
   padding: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+a:hover, 
+  a:focus {
+  text-decoration: none;
+}
+
+a {
+  img {
+    border: none;
+  }
 }
 
