@@ -1,9 +1,9 @@
 @import '_variables';
 @import "_hero-section";
-@import "_first-section";
-@import "_headline-section";
 @import "_nav-bar";
 @import "_text-box";
+@import "_positioning-flexbox";
+@import "_box_step";
 
 // styles.scss
 body,
@@ -26,10 +26,6 @@ p, a {
 img {
   width: 100%;
   height: auto;
-}
-
-section {
-  padding: 50px;
 }
 
 ul {

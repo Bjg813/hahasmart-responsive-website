@@ -1,0 +1,21 @@
+@import "_variables";
+
+.box-bg {
+    padding: 20% 0;
+}
+
+.box_step_one {
+    background-color: $secondary-color;
+}
+
+.box_step_two {
+    background-color: $tetradic-color-three;
+}
+
+.box_step_three {
+    background-color: $tetradic-color-one;
+}
+
+.box_step_four {
+    background-color: $tetradic-color-two;
+}
