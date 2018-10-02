@@ -3,7 +3,7 @@
 @import "_first-section";
 @import "_headline-section";
 @import "_nav-bar";
-@import "_step-box";
+@import "_text-box";
 
 // styles.scss
 body,
@@ -11,7 +11,16 @@ html {
   height: 100%;
   margin: 0;
   background-color: $primary-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-family: $primary-font-family;
+  text-align: center;
+}
+
+p, a {
+  font-family: $secondary-font-family;
+  text-align: center;
 }
 
 img {

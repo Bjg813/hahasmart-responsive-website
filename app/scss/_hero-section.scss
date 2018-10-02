@@ -1,12 +1,12 @@
 @import '_variables';
 
 .box {
-	background-image:url('../images/solarpanels-hahasmart-hero-image.png');
+	background-image:url('../images/hahasmart-hero-image.jpg');
 	overflow: hidden;
 	background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding: 0;
+    padding: 0 0 49% 0;
 }
 
 .box {
@@ -17,6 +17,7 @@
         padding: 3%;
         font-weight: bolder;
         font-size: $h1-font-xs;
+        text-shadow: 2px 2px $tetradic-color-one;
     }
 }
 
@@ -32,20 +33,19 @@
 
 .hero-button {
     position: absolute;
-    top: 73%;
+    top: 48%;
     left: 30%;
-    border-radius: 25px;
-    background-color: $secondary-color;
-    border: 1px solid $secondary-color;
-    color: $dark-color;
-    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+    font-weight: 900;
 }
 
 .hero-button:hover,
     .hero-button:focus {
-        background-color: $hover-background-color;
-        border: 1px solid $hover-background-color;
-        color: $dark-color;
+        background-color: transparent;
+        border: 1px solid $tetradic-color-three;
+        color: $primary-color;
     }  
 
 @media only screen and (min-width: $landscape-phones)  {
@@ -59,7 +59,6 @@
     h1 {
         font-size: $h1-font-xl;
         padding: 7% 0 5% 0;
-        text-shadow: 2px 2px $dark-color;
     }
 }
 

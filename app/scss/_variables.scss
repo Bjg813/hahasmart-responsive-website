@@ -4,12 +4,19 @@
 
 // Colors
 $primary-color: #efefef;
-$secondary-color: #82c23b;
+$secondary-color: #82c23b; 
 $dark-color: #000000;
 $hover-background-color: #97ca55;
 
+// Tetradic colors
+$tetradic-color-one: #c27b3b;
+$tetradic-color-two: #3b82c2;
+$tetradic-color-three: #7b3bc2;
+
+
 // Fonts
-$primary-font-family: Helvetica, sans-serif;
+$primary-font-family: 'Montserrat', sans-serif;
+$secondary-font-family: 'Lato', sans-serif;
 
 // Font-size mobile
 $h1-font-xs: 1.8rem;
