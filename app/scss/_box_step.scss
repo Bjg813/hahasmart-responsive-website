@@ -1,21 +1,69 @@
-@import "_variables";
+@import "variables";
 
-.box-bg {
-    padding: 20% 0;
+.grid-container {
+    font-size: 40px;
+    min-height: 800px;
+    width: 100%;
+    background: lightgray;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
 }
 
-.box_step_one {
-    background-color: $secondary-color;
+@media only screen and (min-width: $pixel2)  {
+    .grid-container {
+        grid-template-rows: repeat(3, 1fr);
+    }
 }
 
-.box_step_two {
-    background-color: $tetradic-color-three;
+@media only screen and (min-width: $landscape-phones)  {
+    .grid-container {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
 
-.box_step_three {
+@media only screen and (min-width: $tablets)  {
+    .grid-container {
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: $desktops)  {
+    .grid-container {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+}
+
+@media only screen and (min-width: $large-desktops)  {
+    .grid-container {
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+.item1{
     background-color: $tetradic-color-one;
 }
 
-.box_step_four {
+.item2{
     background-color: $tetradic-color-two;
 }
+
+.item3{
+    background-color: $tetradic-color-three;
+}
+
+.item4{
+    background-color: $tetradic-color-one;
+}
+
+.item5{
+    background-color: $tetradic-color-two;
+}
+
+.item6{
+    background-color: $tetradic-color-three;
+}
+
