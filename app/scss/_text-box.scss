@@ -1,11 +1,32 @@
+@import "_variables";
+
 .text-box { 
-    img {
+    .text-box-logo {
         margin: 0 0 8% 0;
         padding: 0 30%;
     }
 }
 
 .text-box {
-    padding: 5% 3%;
+    padding: 5% 0 15% 3%;
+    background-color: $primary-bg-color; 
 }
 
+.text-box {
+    .screenshot-container {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: $large-desktops) {
+    .text-box {
+        .screenshot-container {
+            position: absolute;
+            height: 600px;
+            width: 76%;
+            top: 1870px;
+            right: 158px;
+        }
+    }
+}

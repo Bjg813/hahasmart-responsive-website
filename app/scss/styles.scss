@@ -4,6 +4,7 @@
 @import "_text-box";
 @import "_positioning-flexbox";
 @import "_box_step";
+@import "_milestone-section";
 
 // styles.scss
 body,
@@ -11,16 +12,15 @@ html {
   height: 100%;
   margin: 0;
   background-color: $primary-color;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $primary-font-family;
-  text-align: center;
 }
 
 p, a {
   font-family: $secondary-font-family;
-  text-align: center;
 }
 
 img {
@@ -40,6 +40,20 @@ a:hover,
 a {
   img {
     border: none;
+  }
+}
+
+@media only screen and (min-width: $large-desktops) {
+  body {
+    font-size: 22px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 48px;
   }
 }
 
