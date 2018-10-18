@@ -47,8 +47,8 @@
         height: auto;
         max-width: 100%;
         position: absolute;
-        top: 42px;
-        left: -240px;
+        top: -352px;
+        left: -136px;
         border-style: none;
     }
 }
@@ -62,7 +62,41 @@
     }
 }
 
+@media only screen and (min-width: $pixel2) {
+    .milestones {
+        .image {
+            top: -350px;
+            left: -122px;
+        }
+    }
+}
+
+@media only screen and (min-width: $tablets) {
+    .milestones {
+        .image {
+            padding: 28%;
+            top: -530px;
+            left: -286px;
+        }
+    }
+}
+
 @media only screen and (min-width: $large-desktops) {
+    .milestones {
+        .image {
+            top: -237px;
+            left: -464px;
+        }
+    }
+
+    .milestones {
+        .content-container {
+            padding: 0 0 0 58%;
+        }
+    }
+}
+
+@media only screen and (min-width: $x-large-desktops) {
 
     .milestones {
         padding: 560px 0 600px;
@@ -75,14 +109,16 @@
     }
 
     .milestones {
-        .content-container {
-            max-width: 1200px;
+        .context-container {
+            padding: 0 0 0 7%;
+            margin: 0 232px 0 0;
         }
     }
 
     .milestones {
         .image {
-            left: -367px;
+            left: -831px;
+            top: -478px;
         }
     }
 }

@@ -43,6 +43,12 @@
     }
 }
 
+@media only screen and (min-width: $x-large-desktops)  {
+    .grid-container {
+        grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    }
+}
+
 .item1{
     background-color: $tetradic-color-one;
 }

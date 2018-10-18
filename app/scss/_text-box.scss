@@ -19,13 +19,13 @@
     }
 }
 
-@media only screen and (min-width: $large-desktops) {
+@media only screen and (min-width: $x-large-desktops) {
     .text-box {
         .screenshot-container {
             position: absolute;
             height: 600px;
             width: 76%;
-            top: 1870px;
+            top: 2288px;
             right: 158px;
         }
     }
